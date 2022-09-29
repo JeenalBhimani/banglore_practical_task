@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+}
+.error-msg {
+  color: red;
+  font-size: 16px;
+  font-weight: 500;
+  display: none;
+}
+
+input:invalid[focused="true"] ~ .error-msg {
+  display: block;
+}
+
+input:invalid[focused="true"] {
+  border-bottom: 1px solid red;
+}
+
+/* auth pages css */
+.main-auth-div {
+  display: flex;
+  height: 100vh;
+}
+
+.left-div {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #794393;
+  padding: 6%;
+  box-sizing: border-box;
+}
+
+.right-div {
+  width: 35%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lear-btn {
+  padding: 9px 88px;
+  border-radius: 9px;
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+  color: #794393;
+}
+
+.feature-btn {
+  padding: 9px 88px;
+  border-radius: 9px;
+  border: 1px solid #ffffff;
+  background-color: #794393;
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.input-field {
+  border: 0;
+  border-bottom: 2px solid black;
+  outline: none;
+  padding: 3px 0px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.login-btn {
+  padding: 9px 99px;
+  border-radius: 9px;
+  border: 1px solid #ffffff;
+  background-color: #794393;
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 50px;
+}
+
+/* userlist pages css */
+
+.userlist-main {
+  height: 100vh;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 70px;
+}
+
+.userbox-main-div {
+  width: 30.33%;
+  /* box-sizing: border-box; */
+  margin: 20px auto;
+}
+
+.list-div {
+  background: #fbfcff;
+  height: 100%;
+  display: flex;
+  transition: all 0.5s linear;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.list-div:hover {
+  box-shadow: 0 0 10px lightgrey;
+  border-color: #d7dcef;
+}
+
+.user-img {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.box-user-list {
+  margin-left: 18px;
+}
+
+.userbox-btn {
+  border: 1px solid #849fff;
+  border-radius: 16px;
+  color: #849fff;
+  padding: 4px 5px;
+  margin: 3px;
+  background-color: #ffffff;
+}
+
+.userlist-page-btn {
+  padding: 12px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.userlist-page-btns {
+  padding: 12px;
+  border-radius: 6px;
+  background-color: #849fff;
+  border: none;
+  color: #ffffff;
+}
+
+.userlist-pagination-btn {
+  padding: 12px;
+  border-radius: 6px;
+  background-color: #849fff;
+  border: none;
+  margin: 0px 6px 0px 0px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.user-search {
+  padding: 20px 50px;
+  border-radius: 6px;
+  border: 2px solid #e3e7f4;
+  outline: none;
+  width: 115%;
+}
+
+.search-img {
+  width: 29px;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.user-search::-webkit-input-placeholder {
+  font-size: 20px;
+  color: lightgray;
+}
