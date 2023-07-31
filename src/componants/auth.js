@@ -67,7 +67,7 @@ function Auth() {
       .then((data) => {
         if (data.data.token) {
           localStorage.setItem('userToken', data?.data?.token)
-          toast.success("user login successfully ")
+          toast.success("user login successfully !!")
           navigate('/userlist')
         }
       })
