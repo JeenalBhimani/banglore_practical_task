@@ -19,6 +19,7 @@ function Auth() {
     email: "",
     password: ""
   })
+  
 
   const inputs = [
     {
