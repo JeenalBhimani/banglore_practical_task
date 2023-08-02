@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/banglore_practical_task/static/css/main.cce76d34.css",
-    "main.js": "/banglore_practical_task/static/js/main.e3424aa8.js",
-    "index.html": "/banglore_practical_task/index.html",
-    "main.cce76d34.css.map": "/banglore_practical_task/static/css/main.cce76d34.css.map",
-    "main.e3424aa8.js.map": "/banglore_practical_task/static/js/main.e3424aa8.js.map"
+    "main.css": "/userdemo/static/css/main.cce76d34.css",
+    "main.js": "/userdemo/static/js/main.e3424aa8.js",
+    "index.html": "/userdemo/index.html",
+    "main.cce76d34.css.map": "/userdemo/static/css/main.cce76d34.css.map",
+    "main.e3424aa8.js.map": "/userdemo/static/js/main.e3424aa8.js.map"
   },
   "entrypoints": [
     "static/css/main.cce76d34.css",
