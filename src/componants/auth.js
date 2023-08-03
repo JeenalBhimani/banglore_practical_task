@@ -87,7 +87,7 @@ function Auth() {
           <div style={{ width: "66%" }}>
             <h1 style={{
               fontSize: "75px", color: "#FFFFFF", margin: 0
-            }}>your space to  be social Jeenal Bhimani</h1>
+            }}>your space to  be social Welcome Jeenal</h1>
             <p style={{ color: "#FFFFFF", fontSize: "28px", fontWeight: 700 }}>Lorem ipsum dolor sit amet, consectetur adip scing elit</p>
             <div className='btn-div'>
               <button className='lear-btn'>Learn more</button>
